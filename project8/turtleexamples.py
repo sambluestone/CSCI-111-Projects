@@ -1,5 +1,5 @@
 """
-Author: Ken Lambert
+Author: Sam Bluestone
 Project 7
 File: turtleexamples.py
 
@@ -65,14 +65,14 @@ def main():
     t.pencolor("blue")
     drawSquare(t, 50)
     drawPentagon(t, 50)
-##    drawFlower(t, 50)
-##    for sides in range(3, 7):     # Draw triangle, square, pentagon, hexagon
-##        drawPolygon(t, 50, sides)
-##    drawPolygon(t, 50, 8)                 # Draw octagon
-##    drawFlower(t, 50)                   # Flower with 4 squares
-##    drawFlower(t, 50, 10)               # Flower with 10 squares
-##    drawFlower(t, 50, 6, drawPentagon)  # Ditto
-##    drawFlower(t, 50, 4, lambda t, length: drawPolygon(t, length, 8)) # 4 octagons
+    drawFlower(t, 50)
+    for sides in range(3, 7):     # Draw triangle, square, pentagon, hexagon
+        drawPolygon(t, 50, sides)
+        drawPolygon(t, 50, 8)                 # Draw octagon
+        drawFlower(t, 50)                   # Flower with 4 squares
+        drawFlower(t, 50, 10)               # Flower with 10 squares
+        drawFlower(t, 50, 6, drawPentagon)  # Ditto
+        #drawFlower(t, 50, 4, lambda t, length: drawPolygon(t, length, 8)) # 4 octagons
     
 if __name__ == "__main__":
     main()
